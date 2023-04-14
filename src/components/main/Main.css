@@ -1,0 +1,112 @@
+.main{
+    height: 100vh;
+    background-color: #F0F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.people{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 65px;
+}
+
+.text{
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    z-index: 2;
+}
+
+.head{
+    background: linear-gradient(to left, rgb(0, 255, 106) 50%, rgb(255, 17, 0) 50%);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.torso{
+    display: flex;
+}
+.arm-left{
+    border-radius: 0%  0% 100px 100px;
+    width: 75px;
+    height: 210px;
+    background-color: rgb(255, 17, 0);
+    border: 2px solid black;
+    border-right: 0px solid #000;
+    display: flex;    
+    align-items: center;
+}
+.belly{
+    height: 240px;
+    width: 152px;
+    background: linear-gradient(to left, rgb(0, 255, 106) 50%, rgb(255, 17, 0) 50%);
+    border: 2px solid black;
+    border-bottom: 0px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.arm-right{
+    border-radius: 0%  0% 100px 100px;
+    width: 75px;
+    height: 220px;
+    background-color: rgb(0, 255, 106);
+    border: 2px solid black;
+    border-left: 0px solid #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.legs{
+    display: flex;
+}
+.leg-left{
+    border-radius: 0%  0% 100px 100px;
+    width: 75px;
+    height: 240px;
+    background-color: rgb(255, 17, 0);
+    border: 2px solid black;
+    border-top: 0px solid #000;
+    display: flex;
+    align-items: center;
+}
+.leg-right{
+    border-radius: 0%  0% 100px 100px;
+    width: 75px;
+    height: 240px;
+    background-color: rgb(0, 255, 106);
+    border: 2px solid black;
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+}
+.circle:hover{
+    background-color: rgb(231, 231, 231);
+}
+.arm-left .circle, .leg-left .circle, .belly .circle{
+    margin-left: -15px;
+}
+.arm-right .circle, .leg-right .circle, .belly .circle{
+    margin-right: -15px;
+}
