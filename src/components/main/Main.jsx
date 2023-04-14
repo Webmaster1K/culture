@@ -85,7 +85,7 @@ function Main() {
         <div className="legs">
           <div className="leg-left">
             <div className="circle" onClick={()=> setVisible6(!visible6)}><div style={text6} className="text">Итог: 
-            <br/>Hедуховнй человек руководствуется разрушительными и эгоистичными качествами, которые ведут к саморазрушению личности, пагубно влияют на окружающий мир и общество.</div></div>
+            <br/>Недуховнй человек руководствуется разрушительными и эгоистичными качествами, которые ведут к саморазрушению личности, пагубно влияют на окружающий мир и общество.</div></div>
           </div>
           <div className="leg-right">
             <div className="circle" onClick={()=> setVisible7(!visible7)}><div style={text7} className="text">Итог:
