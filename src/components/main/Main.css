@@ -23,7 +23,7 @@
 }
 
 .head{
-    background: linear-gradient(to left, #98FF98 50%, #EC2D01 50%);
+    background: linear-gradient(to left, rgb(0, 255, 106) 50%, rgb(255, 17, 0) 50%);
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -39,7 +39,7 @@
     border-radius: 0%  0% 100px 100px;
     width: 75px;
     height: 210px;
-    background-color: #EC2D01;
+    background-color: rgb(255, 17, 0);
     border: 2px solid black;
     border-right: 0px solid #000;
     display: flex;    
@@ -48,7 +48,7 @@
 .belly{
     height: 240px;
     width: 152px;
-    background: linear-gradient(to left, #98FF98 50%, #EC2D01 50%);
+    background: linear-gradient(to left, rgb(0, 255, 106) 50%, rgb(255, 17, 0) 50%);
     border: 2px solid black;
     border-bottom: 0px solid #000;
     display: flex;
@@ -59,7 +59,7 @@
     border-radius: 0%  0% 100px 100px;
     width: 75px;
     height: 220px;
-    background-color: #98FF98;
+    background-color: rgb(0, 255, 106);
     border: 2px solid black;
     border-left: 0px solid #000;
     display: flex;
@@ -74,7 +74,7 @@
     border-radius: 0%  0% 100px 100px;
     width: 75px;
     height: 240px;
-    background-color: #EC2D01;
+    background-color: rgb(255, 17, 0);
     border: 2px solid black;
     border-top: 0px solid #000;
     display: flex;
@@ -84,7 +84,7 @@
     border-radius: 0%  0% 100px 100px;
     width: 75px;
     height: 240px;
-    background-color: #98FF98;
+    background-color: rgb(0, 255, 106);
     border: 2px solid black;
     border-top: 0px solid #000;
     border-left: 0px solid #000;
